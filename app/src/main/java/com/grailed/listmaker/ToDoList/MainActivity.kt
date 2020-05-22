@@ -13,12 +13,11 @@ import com.grailed.listmaker.TaskList.DetailActivity
 import com.grailed.listmaker.TaskList.TaskList
 import com.grailed.listmaker.TodoListFragment
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_todo_list.*
 
 class MainActivity : AppCompatActivity(),
     TodoListFragment.OnFragmentInteractionListener {
 
-     var todoListFragment = TodoListFragment()
+    var todoListFragment = TodoListFragment()
 
     companion object {
         const val Intent_List_Key = "list"

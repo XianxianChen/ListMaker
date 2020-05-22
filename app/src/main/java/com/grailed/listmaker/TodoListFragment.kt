@@ -85,7 +85,6 @@ class TodoListFragment : Fragment(), TodoListAdapter.TodoListClickListener {
         listDataManager.saveList(list)
         val todoAdapter = todoListRecyclerView.adapter as TodoListAdapter
         todoAdapter.addList(list)
-
     }
 
     fun saveList(list: TaskList) {
